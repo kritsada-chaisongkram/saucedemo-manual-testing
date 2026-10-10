@@ -21,6 +21,8 @@ Shopping Cart, and Checkout.
 Testing will be performed step by step, starting
 with Login and continuing through the main shopping flow.
 
+This project also aims to improve practical QA testing skills.
+
 ## Test Scope
 
 ### Completed
