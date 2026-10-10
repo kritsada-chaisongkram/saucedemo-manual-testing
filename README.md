@@ -54,3 +54,8 @@ This project also aims to improve practical QA testing skills.
 - **Authorization Testing:** Verify that unauthenticated users cannot access protected pages.
 - **Account Status Testing:** Verify that locked accounts cannot log in.
 - **Result Verification:** Compare actual results with expected results and record PASS/FAIL.
+
+## Test Artifacts
+
+- [Login Test Cases](test-cases/login-test-cases.xlsx)
+- [Login Test Evidence](test-evidence/login/)
