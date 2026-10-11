@@ -38,6 +38,7 @@ This project also aims to improve practical QA testing skills.
 
 **Execution Results:** 7 Passed, 0 Failed
 
+
 **Product Listing**
 - Verify Product Listing After Successful Login
 - Verify Product Names Are Displayed
@@ -45,6 +46,7 @@ This project also aims to improve practical QA testing skills.
 - Verify Add to Cart Buttons Are Displayed
 
 **Execution Results:** 4 Passed, 0 Failed
+
 
 **Product Details**
 
@@ -54,9 +56,21 @@ This project also aims to improve practical QA testing skills.
 
 **Execution Results:** 3 Passed, 0 Failed
 
+
+**Shopping Cart**
+
+- Verify Adding a Product to Cart
+- Verify Adding Multiple Products to Cart
+- Verify Add to Cart Button Changes to Remove
+- Verify Cart Badge Updates Correctly
+- Verify Shopping Cart Displays Added Products
+- Verify Removing Products from Shopping Cart
+
+**Execution Results:** 6 Passed, 0 Failed
+
+
 ### Planned
 
-- Add to Cart and Shopping Cart
 - Checkout and Order Flow
 - End-to-End and Regression Testing
 
@@ -78,3 +92,5 @@ This project also aims to improve practical QA testing skills.
 - [Product Test Evidence](test-evidence/product/)
 - [Product Details Test Cases](test-cases/product-details-test-cases.xlsx)
 - [Product Details Evidence](test-evidence/product-details/)
+- [Shopping Cart Test Cases](test-cases/cart-test-cases.xlsx)
+- [Shopping Cart Test Evidence](test-evidence/cart/)
