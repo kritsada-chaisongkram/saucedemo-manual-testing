@@ -46,9 +46,16 @@ This project also aims to improve practical QA testing skills.
 
 **Execution Results:** 4 Passed, 0 Failed
 
+**Product Details**
+
+- Verify Product Details Page Opens
+- Verify Product Details Information Is Displayed
+- Verify Product Details Match the Selected Product
+
+**Execution Results:** 3 Passed, 0 Failed
+
 ### Planned
 
-- Product Details
 - Add to Cart and Shopping Cart
 - Checkout and Order Flow
 - End-to-End and Regression Testing
@@ -69,3 +76,5 @@ This project also aims to improve practical QA testing skills.
 - [Login Test Evidence](test-evidence/login/)
 - [Product Test Cases](test-cases/product-test-cases.xlsx)
 - [Product Test Evidence](test-evidence/product/)
+- [Product Details Test Cases](test-cases/product-details-test-cases.xlsx)
+- [Product Details Evidence](test-evidence/product-details/)
