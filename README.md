@@ -69,10 +69,24 @@ This project also aims to improve practical QA testing skills.
 **Execution Results:** 6 Passed, 0 Failed
 
 
+**Checkout & Order Flow**
+
+- Verify Complete Successful Checkout Flow
+- Verify Checkout with Empty First Name
+- Verify Cancel from Checkout Information Page
+- Verify Checkout with Empty Last Name
+- Verify Order Summary and Price Calculation Accuracy
+- Verify Postal Code Input with Special Characters
+- Verify Unauthenticated Checkout Access
+
+**Execution Results:** 6 Passed, 0 Failed, 1 Needs Clarification
+
+
 ### Planned
 
-- Checkout and Order Flow
+- Jira Bug Reporting and Defect Management
 - End-to-End and Regression Testing
+- Final Manual QA Portfolio Review
 
 ## Testing Approach
 
@@ -94,3 +108,5 @@ This project also aims to improve practical QA testing skills.
 - [Product Details Evidence](test-evidence/product-details/)
 - [Shopping Cart Test Cases](test-cases/cart-test-cases.xlsx)
 - [Shopping Cart Test Evidence](test-evidence/cart/)
+- [Checkout Test Cases](test-cases/checkout-test-cases.xlsx)
+- [Checkout Test Evidence](test-evidence/checkout/)
