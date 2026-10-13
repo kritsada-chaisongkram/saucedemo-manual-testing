@@ -82,9 +82,20 @@ This project also aims to improve practical QA testing skills.
 **Execution Results:** 6 Passed, 0 Failed, 1 Needs Clarification
 
 
+**Exploratory Testing & Jira Bug Reporting**
+
+- SCRUM-15: Incorrect product image displayed for Sauce Labs Backpack
+- SCRUM-17: Sauce Labs Backpack price changes unexpectedly after refreshing Products page
+
+**Defects Reported:** 2
+**Status:** To Do (Open)
+
+Both defects were reproduced using fault-injected
+test accounts in the SauceDemo demo application.
+They are not production defects.
+
 ### Planned
 
-- Jira Bug Reporting and Defect Management
 - End-to-End and Regression Testing
 - Final Manual QA Portfolio Review
 
@@ -110,3 +121,5 @@ This project also aims to improve practical QA testing skills.
 - [Shopping Cart Test Evidence](test-evidence/cart/)
 - [Checkout Test Cases](test-cases/checkout-test-cases.xlsx)
 - [Checkout Test Evidence](test-evidence/checkout/)
+- [Bug Report SCRUM-15](bug-reports/SCRUM-15/)
+- [Bug Report SCRUM-17](bug-reports/SCRUM-17/)
