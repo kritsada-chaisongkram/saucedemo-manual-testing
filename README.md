@@ -32,11 +32,13 @@ The following testing approaches were applied:
 - **Functional Testing:** Verified core e-commerce features against expected results.
 - **Positive Testing:** Tested valid user actions and successful workflows.
 - **Negative Testing:** Tested invalid inputs, missing required fields, and restricted access.
-- **Input Validation Testing:** Checked required fields and selected input conditions.
-- **Authorization Testing:** Checked access to protected pages without authentication.
+- **Input Validation Testing:** Checked required fields and observed application behavior for selected input conditions.
+- **Access Control Testing:** Checked whether unauthenticated users could access protected pages.
 - **End-to-End Testing:** Verified a complete purchase journey from login through order confirmation.
 - **Regression Testing:** Re-executed selected existing test cases under a simulated change scenario.
 - **Exploratory Testing:** Investigated unexpected application behavior and documented reproducible issues.
+
+Actual results, execution status, and screenshot evidence were recorded for the executed test cases.
 
 Actual results, execution status, and screenshot evidence were recorded for the executed test cases.
 
