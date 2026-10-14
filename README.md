@@ -96,9 +96,8 @@ Both issues were observed using fault-injected test accounts provided by SauceDe
 
 Bug report evidence includes screenshots of the observed behavior and Jira reports.
 
-- [SCRUM-15 Bug Report & Evidence](bug-reports/SCRUM-15/)
-- [SCRUM-17 Bug Report & Evidence](bug-reports/SCRUM-17/)
-
+- [SCRUM-15 Bug Report & Evidence](bug-reports/SCRUM-15/bug-report.md)
+- [SCRUM-17 Bug Report & Evidence](bug-reports/SCRUM-17/bug-report.md)
 ## Test Artifacts
 
 ### Functional Test Cases
