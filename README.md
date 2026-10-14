@@ -40,8 +40,6 @@ The following testing approaches were applied:
 
 Actual results, execution status, and screenshot evidence were recorded for the executed test cases.
 
-Actual results, execution status, and screenshot evidence were recorded for the executed test cases.
-
 ## End-to-End Testing
 
 One end-to-end test case was designed and executed to verify the complete purchase flow.
