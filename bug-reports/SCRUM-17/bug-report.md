@@ -5,7 +5,7 @@
 | Field | Value |
 |---|---|
 | Application | [SauceDemo](https://www.saucedemo.com/) |
-| Feature | Products / Product Listing / Checkout |
+| Feature | Product Listing |
 | Test Account | `visual_user` |
 | Status | To Do |
 | Severity | Medium |
