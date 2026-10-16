@@ -134,6 +134,7 @@ Bug report evidence includes screenshots of the observed behavior and Jira repor
 - [Regression Evidence](test-evidence/regression/)
 - [Bug Report SCRUM-15](bug-reports/SCRUM-15/bug-report.md)
 - [Bug Report SCRUM-17](bug-reports/SCRUM-17/bug-report.md)
+- [Test Summary Report](test-results/test-summary-report.md)
 
 ## Overall Results
 
