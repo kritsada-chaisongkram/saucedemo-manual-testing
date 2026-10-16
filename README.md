@@ -47,6 +47,10 @@ The following testing approaches were applied:
 
 Actual results, execution status, and screenshot evidence are recorded in the test case workbooks. Test cases include a `Requirement ID` that links to [requirements.md](requirements.md).
 
+
+Evidence screenshots are organized by Test Case ID and support the overall execution result. They are not necessarily mapped one-to-one to individual Actual Result entries.
+
+
 ## End-to-End Testing
 
 One end-to-end test case was designed and executed to verify the complete purchase flow.
