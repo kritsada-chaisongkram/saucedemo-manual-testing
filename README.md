@@ -15,6 +15,17 @@ The project covers requirement analysis, test case design, test execution, resul
 
 > **Requirements note:** The requirements used in this portfolio are derived from observed application behavior and the documented test scenarios. They are not official business specifications provided by Sauce Labs.
 
+## Quick Portfolio Review
+
+For interviewers or reviewers who want to inspect the work without downloading Excel first:
+
+1. [Representative test cases](test-cases/representative-test-cases.md) — two concise examples with expected results, observed outcomes, and direct screenshot links.
+2. [Requirements and traceability](requirements.md) — portfolio-derived acceptance criteria connected to test cases.
+3. [Bug investigation: SCRUM-17](bug-reports/SCRUM-17/bug-report.md) — steps to reproduce, price comparisons, and evidence.
+4. [Manual test summary report](test-results/test-summary-report.md) — execution results, risks, limitations, and conclusion.
+
+Complete Excel workbooks, screenshot folders, and other artifacts are linked below.
+
 ## Test Scope & Execution Summary
 
 | Feature | Total Test Cases | Passed | Failed | Needs Clarification |
@@ -48,7 +59,7 @@ The following testing approaches were applied:
 Actual results, execution status, and screenshot evidence are recorded in the test case workbooks. Test cases include a `Requirement ID` that links to [requirements.md](requirements.md).
 
 
-Evidence screenshots are organized by Test Case ID and support the overall execution result. They are not necessarily mapped one-to-one to individual Actual Result entries.
+The **Evidence** column in the Excel Test Execution worksheets contains GitHub hyperlinks to supporting screenshots where captured. Screenshots are organized by Test Case ID; one image may support multiple observations.
 
 
 ## End-to-End Testing
@@ -118,6 +129,8 @@ Bug report evidence includes screenshots of the observed behavior and Jira repor
 
 ### Feature Test Cases
 
+For a quick on-GitHub preview, see [two representative test cases](test-cases/representative-test-cases.md). The Excel workbooks below remain the authoritative detailed test records.
+
 | Feature | Test Cases | Evidence |
 | :-- | :-- | :-- |
 | Login | [Excel](test-cases/login-test-cases.xlsx) | [Screenshots](test-evidence/login/) |
@@ -136,15 +149,6 @@ Bug report evidence includes screenshots of the observed behavior and Jira repor
 - [Bug Report SCRUM-17](bug-reports/SCRUM-17/bug-report.md)
 - [Test Summary Report](test-results/test-summary-report.md)
 
-## Overall Results
-
-| Category | Result |
-| :-- | :-- |
-| Feature Test Cases | 32 total — 31 Passed, 1 Needs Clarification |
-| E2E Test Cases | 1 Passed |
-| **All Unique Test Cases** | **33 total — 32 Passed, 1 Needs Clarification** |
-| Regression Re-executions | 3 Passed (not additional unique cases) |
-| Exploratory Bug Reports | 2 documented issues using fault-injected accounts |
 
 This portfolio demonstrates the process of analyzing testable requirements, designing and executing manual tests, collecting evidence, investigating unexpected behavior, and reporting results.
 
