@@ -2,29 +2,29 @@
 
 ## Project Overview
 
-This project demonstrates a practical manual QA testing workflow using [SauceDemo](https://www.saucedemo.com/), a demo e-commerce application provided by Sauce Labs.
+I created this project to practice manual software testing using [SauceDemo](https://www.saucedemo.com/), a demo shopping website from Sauce Labs.
 
-The project covers requirement analysis, test case design, test execution, result verification, defect reporting, end-to-end testing, and regression testing.
+In this project, I wrote test cases, ran tests, checked results, reported bugs, and practiced end-to-end and regression testing.
 
 - **Application Under Test:** SauceDemo
 - **Testing Type:** Manual Testing
 - **Test Environment:** Google Chrome, Windows 11
 - **Test Management:** Excel
-- **Defect Reporting:** Jira-style reports and documented Jira evidence
+- **Bug Reports:** Jira-style reports with screenshots
 - **Requirements:** [Portfolio-Derived Functional Requirements](requirements.md)
 
-> **Requirements note:** The requirements used in this portfolio are derived from observed application behavior and the documented test scenarios. They are not official business specifications provided by Sauce Labs.
+> **About the requirements:** I wrote the requirements based on the website's behavior and the test scenarios in this project. These are not official requirements from Sauce Labs.
 
 ## Quick Portfolio Review
 
-For interviewers or reviewers who want to inspect the work without downloading Excel first:
+Here are a few files you can review directly on GitHub before opening the Excel files:
 
-1. [Representative test cases](test-cases/representative-test-cases.md) — two concise examples with expected results, observed outcomes, and direct screenshot links.
-2. [Requirements and traceability](requirements.md) — portfolio-derived acceptance criteria connected to test cases.
-3. [Bug investigation: SCRUM-17](bug-reports/SCRUM-17/bug-report.md) — steps to reproduce, price comparisons, and evidence.
-4. [Manual test summary report](test-results/test-summary-report.md) — execution results, risks, limitations, and conclusion.
+1. [Sample test cases](test-cases/representative-test-cases.md) — two examples showing expected results, actual results, and screenshots.
+2. [Requirements and traceability](requirements.md) — the requirements I used and their related test cases.
+3. [Bug report: SCRUM-17](bug-reports/SCRUM-17/bug-report.md) — reproduction steps, price comparisons, and screenshots.
+4. [Test summary report](test-results/test-summary-report.md) — test results, risks, limitations, and conclusion.
 
-Complete Excel workbooks, screenshot folders, and other artifacts are linked below.
+All Excel test cases, screenshots, and other files are linked below.
 
 ## Test Scope & Execution Summary
 
@@ -38,37 +38,35 @@ Complete Excel workbooks, screenshot folders, and other artifacts are linked bel
 | End-to-End Purchase | 1 | 1 | 0 | 0 |
 | **Total** | **33** | **32** | **0** | **1** |
 
-All 33 unique test cases have been executed. The totals include one end-to-end test case and one exploratory checkout test case.
+I executed 33 unique test cases, including one end-to-end test and one exploratory checkout test.
 
-**Clarification note:** `TC-CHECKOUT-006` uses special characters in the Postal Code field. The application accepted the input, but there is no confirmed business rule defining the permitted format. The result is therefore **Needs Clarification**, not a confirmed functional failure or pass against a postal-code validation rule.
+**Needs Clarification:** In `TC-CHECKOUT-006`, I entered special characters in the Postal Code field. The website accepted them, but I did not have an official rule for the allowed postal code format. I marked the case **Needs Clarification**, not PASS or FAIL.
 
 ## Testing Approach
 
-The following testing approaches were applied:
+I used these testing approaches:
 
-- **Requirement Analysis:** Used portfolio-derived requirements and acceptance criteria to connect test scenarios to expected behavior.
-- **Functional Testing:** Verified core e-commerce features against documented expected results.
-- **Positive Testing:** Tested valid user actions and successful workflows.
-- **Negative Testing:** Tested invalid inputs, missing required fields, and restricted access.
-- **Input Validation Testing:** Checked required fields and observed application behavior for selected input conditions.
-- **Access Control Testing:** Checked whether unauthenticated users could access protected pages.
-- **End-to-End Testing:** Verified a complete purchase journey from login through order confirmation.
-- **Regression Testing:** Re-executed selected existing test cases under a simulated change scenario.
-- **Exploratory Testing:** Investigated unexpected application behavior and documented reproducible issues.
+- **Requirement Analysis:** Wrote practice requirements and acceptance criteria to guide the tests.
+- **Functional Testing:** Checked shopping features against expected results.
+- **Positive Testing:** Tested actions with valid inputs.
+- **Negative Testing:** Tested invalid inputs, missing fields, and blocked access.
+- **Input Validation Testing:** Checked required fields and how the website handled different inputs.
+- **Access Control Testing:** Checked if users could open protected pages without logging in.
+- **End-to-End Testing:** Tested the purchase flow from login to order confirmation.
+- **Regression Testing:** Ran selected test cases again for a simulated change.
+- **Exploratory Testing:** Checked unusual behavior and recorded issues I could reproduce.
 
-Actual results, execution status, and screenshot evidence are recorded in the test case workbooks. Test cases include a `Requirement ID` that links to [requirements.md](requirements.md).
+The Excel test case files include actual results, test status, and evidence. Each test case also has a `Requirement ID` linked to [requirements.md](requirements.md).
 
-
-The **Evidence** column in the Excel Test Execution worksheets contains GitHub hyperlinks to supporting screenshots where captured. Screenshots are organized by Test Case ID; one image may support multiple observations.
-
+The **Evidence** column in Excel links to screenshots on GitHub where available. Screenshots are grouped by Test Case ID. One screenshot may support more than one result.
 
 ## End-to-End Testing
 
-One end-to-end test case was designed and executed to verify the complete purchase flow.
+I ran one end-to-end test to check the full purchase flow.
 
 **TC-E2E-001 — End-to-End Purchase Flow with Two Products**
 
-The scenario covers:
+The test includes:
 
 1. Login with a valid user account.
 2. Select and add two products to the cart.
@@ -84,9 +82,9 @@ The scenario covers:
 
 ## Regression Testing
 
-Regression testing was performed as a training exercise under a **simulated developer fix scenario** involving Checkout Total Calculation.
+I practiced regression testing using a **simulated developer fix** for the checkout total calculation. No real code was changed.
 
-Three existing test cases were selected and re-executed to check Shopping Cart and Checkout behavior.
+I ran three existing test cases again to check the cart and checkout.
 
 | Test Case ID | Scenario | Status |
 | :-- | :-- | :-- |
@@ -96,16 +94,16 @@ Three existing test cases were selected and re-executed to check Shopping Cart a
 
 **Execution Result:** 3 Passed, 0 Failed
 
-These are re-executions of existing test cases and are not counted as additional unique test cases in the main execution summary.
+These were existing test cases run again, so they are not added to the 33 unique test cases.
 
-**Limitation:** This exercise does not verify an actual code change or deployment.
+**Limitation:** I did not test a real code fix or deployment.
 
 - [Regression Testing Summary](test-results/regression-summary.md)
 - [Regression Screenshot Evidence](test-evidence/regression/)
 
 ## Exploratory Testing & Bug Reporting
 
-Two issues were reproduced and documented using Jira-style bug reports.
+I reproduced two issues and wrote Jira-style bug reports.
 
 | Bug ID | Description | Status |
 | :-- | :-- | :-- |
@@ -114,9 +112,9 @@ Two issues were reproduced and documented using Jira-style bug reports.
 
 **Total Reported:** 2
 
-Both issues were observed using fault-injected test accounts provided by SauceDemo. They should not be interpreted as production defects.
+Both issues came from SauceDemo test accounts designed to show problems. They are not confirmed production bugs.
 
-Bug report evidence includes screenshots of the observed behavior and Jira reports.
+Each bug report includes screenshots and Jira report evidence.
 
 - [SCRUM-15 Bug Report & Evidence](bug-reports/SCRUM-15/bug-report.md)
 - [SCRUM-17 Bug Report & Evidence](bug-reports/SCRUM-17/bug-report.md)
@@ -129,7 +127,7 @@ Bug report evidence includes screenshots of the observed behavior and Jira repor
 
 ### Feature Test Cases
 
-For a quick on-GitHub preview, see [two representative test cases](test-cases/representative-test-cases.md). The Excel workbooks below remain the authoritative detailed test records.
+You can view [two sample test cases](test-cases/representative-test-cases.md) on GitHub. The Excel files contain the full test details.
 
 | Feature | Test Cases | Evidence |
 | :-- | :-- | :-- |
@@ -149,7 +147,6 @@ For a quick on-GitHub preview, see [two representative test cases](test-cases/re
 - [Bug Report SCRUM-17](bug-reports/SCRUM-17/bug-report.md)
 - [Test Summary Report](test-results/test-summary-report.md)
 
+This project shows how I practiced writing requirements and test cases, running manual tests, taking screenshots, checking unusual behavior, and reporting results.
 
-This portfolio demonstrates the process of analyzing testable requirements, designing and executing manual tests, collecting evidence, investigating unexpected behavior, and reporting results.
-
-The reported results are limited to the scenarios and test environments documented in this repository. Test-case traceability does not establish complete coverage of every SauceDemo feature.
+The results only cover the tests and environment shown here. Linking test cases to requirements does not mean I tested every SauceDemo feature.
